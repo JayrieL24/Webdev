@@ -7,9 +7,8 @@ import "../CSS/table.css";
  export const table= () => {
 
     const [Items, setItems] = useState(data);
-
-
- return <div className="Table-Container"> 
+    let td = document.createElement('div')
+    td.innerHTML =`<div className="Table-Container"> 
  <table>
     <thead>
      <tr>
@@ -33,5 +32,6 @@ import "../CSS/table.css";
     </tbody>
  </table>
 
- </div>
+ </div>`
+ return td;
 };

@@ -41,7 +41,7 @@ s2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48
               edit
               </span> 
               <div className="username">
-              <h1>NAME</h1>    
+              <h1></h1>    
               </div>
               </div>
              <div className="sidebuttons">
