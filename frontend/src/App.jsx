@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import React, { useState, useEffect } from 'react'
 import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
-import { ForTableJSON } from './JSON/ForTableJSON.jsx';
+import { ForTableJSON } from '../src/JSON/ForTableJSON.jsx';
 import { Items } from './JavaScript/Items';        
 import  {table} from "./Pages/table.jsx";
 
@@ -41,7 +41,7 @@ s2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48
               edit
               </span> 
               <div className="username">
-              <h1>Ralph Vincent Dulla</h1>    
+              <h1>NAME</h1>    
               </div>
               </div>
              <div className="sidebuttons">

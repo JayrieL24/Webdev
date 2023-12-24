@@ -1,6 +1,6 @@
+import React, { useState } from "react";
 import { useNavigate } from 'react-router-dom';
 import { MultiSelect } from 'primereact/multiselect';
-import React, { useState } from 'react';    
 import { Button } from 'primereact/button';        
 import { Dropdown } from 'primereact/dropdown';     
 import { InputNumber } from 'primereact/inputnumber';
@@ -17,7 +17,7 @@ interface InputValue {
 
 
 function Return() {
-  const [value1, setValue1] = useState();
+  const [value1, setValue1] = useState(1);
 
   const [multiselectValue, setMultiselectValue] = useState(null);
   const multiselectValues: InputValue[] = itemsBar;
